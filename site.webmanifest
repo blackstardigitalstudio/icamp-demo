@@ -1,0 +1,13 @@
+{
+  "name": "ICAMP · Instituto Canario de Marcas y Patentes",
+  "short_name": "ICAMP",
+  "description": "Registro y defensa de marcas, patentes y diseños industriales en Canarias.",
+  "lang": "es-ES",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f2942",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -1,0 +1,17 @@
+# robots.txt · ICAMP · Instituto Canario de Marcas y Patentes
+User-agent: *
+Allow: /
+
+# Bots de IA (permitir citación en respuestas generativas / GEO)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://www.icamp.es/sitemap.xml
