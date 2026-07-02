@@ -124,6 +124,11 @@ section[id]{scroll-margin-top:100px}
   letter-spacing:.08em;text-transform:uppercase;margin-bottom:1rem}
 .logos{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:1rem 2.5rem}
 .logos span{font-weight:800;font-size:1.15rem;color:#5a6b7a;letter-spacing:-.02em}
+.logos img{height:58px;width:auto;border-radius:12px;box-shadow:var(--shadow-sm);
+  transition:transform .2s var(--ease),box-shadow .2s var(--ease)}
+.logos img:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.hero-photo{width:100%;border-radius:var(--radius);box-shadow:var(--shadow-lg);display:block}
+.card-img{width:100%;height:158px;object-fit:cover;border-radius:12px;margin-bottom:1.1rem;background:var(--bg-soft)}
 
 /* ---- Grid utilidades ---- */
 .grid{display:grid;gap:1.4rem}
